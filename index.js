@@ -60,7 +60,7 @@ app.get('/', async (req, res) => {
   try {
 
     let reslut;
- reslut=await pool.query('select * from user_login_hdr order by 1 desc')
+ //reslut=await pool.query('select * from user_login_hdr order by 1 desc')
 
  
 //     await pool.query(`CREATE TABLE user_login_hdr (
